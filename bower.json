@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate",
-  "description": "My standard web project boilerplate",
+  "name": "theme-PeteHaughie2016",
+  "description": "My presonal bootstrapped website",
   "main": "index.html",
   "authors": [
     "Pete Haughie pete@republicofpete.net"
@@ -9,14 +9,11 @@
   "keywords": [
     "HTML",
     "LESS",
-    "Grunt",
-    "watch",
     "CSS",
     "async",
-    "boilerplate",
     "bootstrap"
   ],
-  "homepage": "https://github.com/Flowdeeps/boilerplate",
+  "homepage": "https://github.com/Flowdeeps/theme-PeteHaughie2016",
   "private": true,
   "ignore": [
     "**/.*",
@@ -27,6 +24,7 @@
   ],
   "dependencies": {
     "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js",
-    "blankslate": "https://github.com/Flowdeeps/blankslate.git"
+    "blankslate": "https://github.com/Flowdeeps/blankslate.git",
+    "momentum": "https://github.com/Flowdeeps/momentum.git"
   }
 }
