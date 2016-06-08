@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "theme-petehaughie2016",
   "version": "1.0.0",
-  "description": "My standard web project boilerplate",
+  "description": "My personal bootstrapped website",
   "main": "Gruntfile.js",
   "dependencies": {
     "autoprefixer": "^6.3.6",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flowdeeps/boilerplate.git"
+    "url": "git+https://github.com/Flowdeeps/theme-PeteHaughie2016.git"
   },
   "keywords": [
     "HTML",
@@ -34,7 +34,7 @@
   "author": "Pete Haughie pete@republicofpete.net",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Flowdeeps/boilerplate/issues"
+    "url": "https://github.com/Flowdeeps/theme-PeteHaughie2016/issues"
   },
-  "homepage": "https://github.com/Flowdeeps/boilerplate#readme"
+  "homepage": "https://github.com/Flowdeeps/theme-PeteHaughie2016#readme"
 }
