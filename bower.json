@@ -25,6 +25,7 @@
   "dependencies": {
     "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js",
     "blankslate": "https://github.com/Flowdeeps/blankslate.git",
-    "momentum": "https://github.com/Flowdeeps/momentum.git"
+    "momentum": "https://github.com/Flowdeeps/momentum.git",
+    "pjazz": "https://github.com/Flowdeeps/PJazz.git"
   }
 }

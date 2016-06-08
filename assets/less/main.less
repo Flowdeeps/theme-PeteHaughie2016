@@ -1,1 +1,15 @@
 @import url("../bower_components/Blankslate/reset.less");
+
+@import url("_general.less");
+@import url("_animation.less");
+
+@import url("_base.less");
+
+// breakpoint for mobile
+@media only screen and (max-device-width: 960px) {
+  @import url("_mobile.less");
+}
+// breakpoint for tablet
+@media only screen and (max-device-width: 1024px) {
+  @import url("_tablet.less");
+}

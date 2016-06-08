@@ -24,6 +24,8 @@ module.exports = function ( grunt ) {
         },
         files: {
           // compilation.css  :  source.less
+          "assets/css/reset.css": "bower_components/blankslate/reset.less",
+          "assets/css/momentum.css": "bower_components/momentum/assets/less/main.less",
           "assets/css/main.css": "assets/less/main.less"
         }
       },
@@ -46,12 +48,13 @@ module.exports = function ( grunt ) {
       },
       build: {
         files: {
-          'assets/js/init.min.js': [ 'assets/js/init.js' ]
+          'assets/js/pjazz.js': 'bower_components/pjazz/assets/js/pjazz.js',
+          'assets/js/init.min.js': 'assets/js/init.js'
         }
       }
     }
   });
   // the default task (running "grunt" in console) is "watch"
-  grunt.registerTask( 'default', [ 'watch', 'less', 'postcss', 'uglify' ] );
-  grunt.registerTask( 'build', [ 'less', 'postcss', 'uglify' ] );
+  grunt.registerTask( 'default', [ 'watch', 'less', 'postcss' ] );
+  grunt.registerTask( 'build', [ 'less', 'postcss' ] );
 };
